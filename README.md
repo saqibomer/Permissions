@@ -10,7 +10,7 @@ pod 'Permissions'
 Add Permissions to your ViewController
 
 ```Swift
-Import Permissions
+import Permissions
 
 YourViewController : UIViewController, PmPermissionDelegate {
 ...
@@ -29,3 +29,11 @@ Add Delegates
     func didCheckPermissionStatus(_ response: PermissionResponse)
     func didFailToGetPermissionStatus(_ response: PermissionResponse)
 ```
+
+## TO DO
+- [x] Contacts Permission
+- []  Location Permission
+- []  Camera Permission
+- []  Micophone Permission
+- []  Photos Permission
+- []  Healthkit Permission
