@@ -82,20 +82,29 @@ class Permissions: NSObject {
      ```
      
      ```swift
+     YourViewController : UIViewController, PmPermissionDelegate {
+     
+     
+     
+     
+     ...
+     ```
+     
+     ```swift
      weak var delegate: PmPermissionDelegate?
      
      ...
      ```
      
      ```swift
-     YourViewController : UIViewController, PmPermissionDelegate {
-     
-     
+     override func viewDidLoad() {
      let permissions: Permissions(device : .camera, shouldRequest : true)
      permissions.delegate = self
-     
      ...
      ```
+     
+     
+    
      
      - Parameter  **device**: Hardware device eg **.camera**
      - Parameter  **shouldRequest**: Should request for permission if not authorised/determined/granted eg  **true**
