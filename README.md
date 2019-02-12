@@ -1,9 +1,9 @@
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Generic badge](https://img.shields.io/badge/<Version>-<0.0.1>-<COLOR>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/<macOS>-<10.11>-<COLOR>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/<iOS>-<9.0>-<COLOR>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/<watchOS>-<4.0>-<COLOR>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/<tvOS>-<2.0>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Version-0.0.1-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/macOS-10.11-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/iOS-9.0-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/watchOS-<4.0>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/tvOS-2.0-<COLOR>.svg)](https://shields.io/)
 
 
 # Permissions
