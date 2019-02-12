@@ -17,12 +17,11 @@ YourViewController : UIViewController, PmPermissionDelegate {
 
 weak var delegate: PmPermissionDelegate?
 
- ```swift
      override func viewDidLoad() {
      let permissions: Permissions(device : .camera, shouldRequest : true)
      permissions.delegate = self
      ...
-     ```
+     
 ```
 
 Add Delegates
