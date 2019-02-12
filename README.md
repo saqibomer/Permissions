@@ -32,8 +32,8 @@ Add Delegates
 
 ## TO DO
 - [x] Contacts Permission
-- []  Location Permission
-- []  Camera Permission
-- []  Micophone Permission
-- []  Photos Permission
-- []  Healthkit Permission
+- [ ]  Location Permission
+- [ ]  Camera Permission
+- [ ]  Micophone Permission
+- [ ]  Photos Permission
+- [ ]  Healthkit Permission
