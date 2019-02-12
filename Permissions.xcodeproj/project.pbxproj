@@ -12,11 +12,36 @@
 			buildConfigurationList = AA184B932212B4F00048A414 /* Build configuration list for PBXAggregateTarget "Package iOS" */;
 			buildPhases = (
 				AA184B942212B52D0048A414 /*  Make Universal Library */,
+				AA184B952212B6BD0048A414 /* Build API Documentatio */,
 			);
 			dependencies = (
 			);
 			name = "Package iOS";
 			productName = "Package iOS";
+		};
+		AA184B962212B6F80048A414 /* Package tvOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA184B972212B6F90048A414 /* Build configuration list for PBXAggregateTarget "Package tvOS" */;
+			buildPhases = (
+				AA184B9A2212B6FE0048A414 /*  Make Universal Library */,
+				AA184B9B2212B72D0048A414 /* Build API Documentation */,
+			);
+			dependencies = (
+			);
+			name = "Package tvOS";
+			productName = "Package tvOS";
+		};
+		AA184B9C2212B7610048A414 /* Package macOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA184B9D2212B7620048A414 /* Build configuration list for PBXAggregateTarget "Package macOS" */;
+			buildPhases = (
+				AA184BA02212B7660048A414 /* Make Universal Library */,
+				AA184BA12212B7820048A414 /* Build API Documentation */,
+			);
+			dependencies = (
+			);
+			name = "Package macOS";
+			productName = "Package macOS";
 		};
 /* End PBXAggregateTarget section */
 
@@ -82,10 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				AAF4C77C220DA08E0019296A /* Source */,
-				AAF4C741220D9F5D0019296A /* Permissions-iOS */,
-				AAF4C75B220D9FA10019296A /* Permissions-macOS */,
-				AAF4C768220D9FB60019296A /* Permissions-watchOS */,
-				AAF4C775220D9FC90019296A /* Permissions-tvOS */,
+				AAF4C741220D9F5D0019296A /* Permissions iOS */,
+				AAF4C75B220D9FA10019296A /* Permissions macOS */,
+				AAF4C768220D9FB60019296A /* Permissions watchOS */,
+				AAF4C775220D9FC90019296A /* Permissions tvOS */,
 				AAF4C740220D9F5D0019296A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,41 +126,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAF4C741220D9F5D0019296A /* Permissions-iOS */ = {
+		AAF4C741220D9F5D0019296A /* Permissions iOS */ = {
 			isa = PBXGroup;
 			children = (
 				AAF4C742220D9F5D0019296A /* Permissions_iOS.h */,
 				AAF4C743220D9F5D0019296A /* Info.plist */,
 			);
-			path = "Permissions-iOS";
+			path = "Permissions iOS";
 			sourceTree = "<group>";
 		};
-		AAF4C75B220D9FA10019296A /* Permissions-macOS */ = {
+		AAF4C75B220D9FA10019296A /* Permissions macOS */ = {
 			isa = PBXGroup;
 			children = (
 				AAF4C75C220D9FA10019296A /* Permissions_macOS.h */,
 				AAF4C75D220D9FA10019296A /* Info.plist */,
 				AAF4C77F220DB0D00019296A /* PermissionsMacos.swift */,
 			);
-			path = "Permissions-macOS";
+			path = "Permissions macOS";
 			sourceTree = "<group>";
 		};
-		AAF4C768220D9FB60019296A /* Permissions-watchOS */ = {
+		AAF4C768220D9FB60019296A /* Permissions watchOS */ = {
 			isa = PBXGroup;
 			children = (
 				AAF4C769220D9FB60019296A /* Permissions_watchOS.h */,
 				AAF4C76A220D9FB60019296A /* Info.plist */,
 			);
-			path = "Permissions-watchOS";
+			path = "Permissions watchOS";
 			sourceTree = "<group>";
 		};
-		AAF4C775220D9FC90019296A /* Permissions-tvOS */ = {
+		AAF4C775220D9FC90019296A /* Permissions tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				AAF4C776220D9FC90019296A /* Permissions_tvOS.h */,
 				AAF4C777220D9FC90019296A /* Info.plist */,
 			);
-			path = "Permissions-tvOS";
+			path = "Permissions tvOS";
 			sourceTree = "<group>";
 		};
 		AAF4C77C220DA08E0019296A /* Source */ = {
@@ -184,9 +209,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AAF4C73E220D9F5D0019296A /* Permissions-iOS */ = {
+		AAF4C73E220D9F5D0019296A /* Permissions iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF4C745220D9F5D0019296A /* Build configuration list for PBXNativeTarget "Permissions-iOS" */;
+			buildConfigurationList = AAF4C745220D9F5D0019296A /* Build configuration list for PBXNativeTarget "Permissions iOS" */;
 			buildPhases = (
 				AAF4C73A220D9F5D0019296A /* Headers */,
 				AAF4C73B220D9F5D0019296A /* Sources */,
@@ -197,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions-iOS";
+			name = "Permissions iOS";
 			productName = "Permissions-iOS";
 			productReference = AAF4C73F220D9F5D0019296A /* Permissions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AAF4C759220D9FA10019296A /* Permissions-macOS */ = {
+		AAF4C759220D9FA10019296A /* Permissions macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF4C75F220D9FA10019296A /* Build configuration list for PBXNativeTarget "Permissions-macOS" */;
+			buildConfigurationList = AAF4C75F220D9FA10019296A /* Build configuration list for PBXNativeTarget "Permissions macOS" */;
 			buildPhases = (
 				AAF4C755220D9FA10019296A /* Headers */,
 				AAF4C756220D9FA10019296A /* Sources */,
@@ -215,14 +240,14 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions-macOS";
+			name = "Permissions macOS";
 			productName = "Permissions-macOS";
 			productReference = AAF4C75A220D9FA10019296A /* Permissions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AAF4C766220D9FB60019296A /* Permissions-watchOS */ = {
+		AAF4C766220D9FB60019296A /* Permissions watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF4C76C220D9FB60019296A /* Build configuration list for PBXNativeTarget "Permissions-watchOS" */;
+			buildConfigurationList = AAF4C76C220D9FB60019296A /* Build configuration list for PBXNativeTarget "Permissions watchOS" */;
 			buildPhases = (
 				AAF4C762220D9FB60019296A /* Headers */,
 				AAF4C763220D9FB60019296A /* Sources */,
@@ -233,14 +258,14 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions-watchOS";
+			name = "Permissions watchOS";
 			productName = "Permissions-watchOS";
 			productReference = AAF4C767220D9FB60019296A /* Permissions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AAF4C773220D9FC90019296A /* Permissions-tvOS */ = {
+		AAF4C773220D9FC90019296A /* Permissions tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF4C779220D9FC90019296A /* Build configuration list for PBXNativeTarget "Permissions-tvOS" */;
+			buildConfigurationList = AAF4C779220D9FC90019296A /* Build configuration list for PBXNativeTarget "Permissions tvOS" */;
 			buildPhases = (
 				AAF4C76F220D9FC90019296A /* Headers */,
 				AAF4C770220D9FC90019296A /* Sources */,
@@ -251,7 +276,7 @@
 			);
 			dependencies = (
 			);
-			name = "Permissions-tvOS";
+			name = "Permissions tvOS";
 			productName = "Permissions-tvOS";
 			productReference = AAF4C774220D9FC90019296A /* Permissions.framework */;
 			productType = "com.apple.product-type.framework";
@@ -265,6 +290,12 @@
 				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					AA184B902212B4F00048A414 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AA184B962212B6F80048A414 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AA184B9C2212B7610048A414 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					AAF4C73E220D9F5D0019296A = {
@@ -295,11 +326,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAF4C73E220D9F5D0019296A /* Permissions-iOS */,
-				AAF4C759220D9FA10019296A /* Permissions-macOS */,
-				AAF4C766220D9FB60019296A /* Permissions-watchOS */,
-				AAF4C773220D9FC90019296A /* Permissions-tvOS */,
+				AAF4C73E220D9F5D0019296A /* Permissions iOS */,
+				AAF4C759220D9FA10019296A /* Permissions macOS */,
+				AAF4C766220D9FB60019296A /* Permissions watchOS */,
+				AAF4C773220D9FC90019296A /* Permissions tvOS */,
 				AA184B902212B4F00048A414 /* Package iOS */,
+				AA184B962212B6F80048A414 /* Package tvOS */,
+				AA184B9C2212B7610048A414 /* Package macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +387,96 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/sh\n\n# Step 1: Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\n# Step 2: Define OS and directories\nUNIVERSAL_TARGET=\"iOS\"\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal-${UNIVERSAL_TARGET}\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# Step 3: Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 4: Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" VALID_ARCHS=\"x86_64 i386\" -configuration ${CONFIGURATION} -sdk ${DEVICE_SIMULATOR} ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n# Step 5: Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 6: Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 7: Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 8: Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 9: Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 10: Testing\n# open \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
 		};
+		AA184B952212B6BD0048A414 /* Build API Documentatio */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API Documentatio";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"iOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"iphoneos\"\nROOT_URL=\"http://appracatappra.com/api/actionutilities/ios/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n";
+		};
+		AA184B9A2212B6FE0048A414 /*  Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = " Make Universal Library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\nUNIVERSAL_TARGET=\"tvOS\"\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal-${UNIVERSAL_TARGET}\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\nDEVICE_OS=\"appletvos\"\nDEVICE_SIMULATOR=\"appletvsimulator\"\n\n# Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" VALID_ARCHS=\"x86_64 i386\" -configuration ${CONFIGURATION} -sdk ${DEVICE_SIMULATOR} ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 6. Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# KKM - Testing\n# open \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+		AA184B9B2212B72D0048A414 /* Build API Documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API Documentation";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"tvOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"appletvos\"\nROOT_URL=\"http://appracatappra.com/api/actiondata/tvos/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n\n";
+		};
+		AA184BA02212B7660048A414 /* Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define Macros\nRELEASE_TYPE=\"\"\nFRAMEWORK_VERSION=\"NOTRIAL_VERSION\"\n\nUNIVERSAL_TARGET=\"macOS\"\nDEVICE_OS=\"macosx\"\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\n\n# Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" OTHER_SWIFT_FLAGS=\"-D ${FRAMEWORK_VERSION}\" clean build\n\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 3. Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n";
+		};
+		AA184BA12212B7820048A414 /* Build API Documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build API Documentation";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Define macros\nAPI_TARGET=\"macOS\"\nAPI_OUTPUT=\"${PROJECT_DIR}/API/${API_TARGET}\"\nDEVICE_OS=\"macosx\"\nROOT_URL=\"http://appracatappra.com/api/actiondata/macos/\"\n\n# Make sure the output directory exists\nmkdir -p \"${API_OUTPUT}\"\n\n# Move to project directory\ncd \"${PROJECT_DIR}\"\n\n# Create documentation with Jazzy\njazzy --output \"${API_OUTPUT}\" --sdk ${DEVICE_OS} --clean --xcodebuild-arguments -target,\"${PROJECT_NAME} ${API_TARGET}\" --module ${PROJECT_NAME} --author \"Appracatappra, LLC\" --root-url \"${ROOT_URL}\"\n\n# Open project directory\n# open \"${API_OUTPUT}\"\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -400,6 +523,42 @@
 			name = Debug;
 		};
 		AA184B922212B4F00048A414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA184B982212B6F90048A414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA184B992212B6F90048A414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA184B9E2212B7620048A414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA184B9F2212B7620048A414 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -478,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -554,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -638,7 +797,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -715,7 +874,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -796,7 +955,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-watchOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -873,7 +1032,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-watchOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -955,7 +1114,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1031,7 +1190,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Permissions-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Permissions tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1067,6 +1226,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AA184B972212B6F90048A414 /* Build configuration list for PBXAggregateTarget "Package tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA184B982212B6F90048A414 /* Debug */,
+				AA184B992212B6F90048A414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA184B9D2212B7620048A414 /* Build configuration list for PBXAggregateTarget "Package macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA184B9E2212B7620048A414 /* Debug */,
+				AA184B9F2212B7620048A414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAF4C737220D9F020019296A /* Build configuration list for PBXProject "Permissions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1076,7 +1253,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF4C745220D9F5D0019296A /* Build configuration list for PBXNativeTarget "Permissions-iOS" */ = {
+		AAF4C745220D9F5D0019296A /* Build configuration list for PBXNativeTarget "Permissions iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF4C746220D9F5D0019296A /* Debug */,
@@ -1085,7 +1262,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF4C75F220D9FA10019296A /* Build configuration list for PBXNativeTarget "Permissions-macOS" */ = {
+		AAF4C75F220D9FA10019296A /* Build configuration list for PBXNativeTarget "Permissions macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF4C760220D9FA10019296A /* Debug */,
@@ -1094,7 +1271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF4C76C220D9FB60019296A /* Build configuration list for PBXNativeTarget "Permissions-watchOS" */ = {
+		AAF4C76C220D9FB60019296A /* Build configuration list for PBXNativeTarget "Permissions watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF4C76D220D9FB60019296A /* Debug */,
@@ -1103,7 +1280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF4C779220D9FC90019296A /* Build configuration list for PBXNativeTarget "Permissions-tvOS" */ = {
+		AAF4C779220D9FC90019296A /* Build configuration list for PBXNativeTarget "Permissions tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF4C77A220D9FC90019296A /* Debug */,
